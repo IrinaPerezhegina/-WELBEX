@@ -1,0 +1,125 @@
+@import "./normalize.scss";
+@import "./variable.scss";
+
+.wrapper {
+	position: relative;
+	font-family: $main-font;
+	padding-top: 40px;
+	width: 1440px;
+	min-width: 320px;
+	height:980px;
+	background-color: #1E1E1E;
+	margin: 0 auto;
+	@media (max-width: 320px) {
+		padding-top: 0px;
+		width: 320px;
+		height:1115px;
+		margin: 0 auto;
+	}
+    
+
+}
+.ballOneTwo{
+	position: relative;
+	&::before{
+		content: "";  
+		position: absolute;
+		z-index: 10;
+		background-image: url("../../assets/main/ballTwo.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+	   	top: -12rem;
+		left:602px;
+		width: 259px;
+		height:259px;
+		@media (max-width: 320px) {
+			display: none;
+		
+	}
+	
+}
+ 	&::after{
+            content: "";  
+            position: absolute;
+            z-index: 10;
+            background-image: url("../../assets/main/ballOne.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: -2.1rem;
+            left:863px;
+            width: 60px;
+            height:60px;
+			@media (max-width: 320px) {
+				z-index: 200;
+				top:286px;
+				left:271px;
+				width: 50px;
+				height:50px;
+				transform: rotate(90deg);
+		}
+        
+    }
+}
+
+.ballThreeFour{
+	position: relative;
+	&::before{
+		content: "";  
+		position: absolute;
+		z-index: 10;
+		background-image: url("../../assets/main/ballThree.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+	    top: 209px;
+		left:-101px;
+		width: 311px;
+		height:311px;
+		@media (max-width: 320px) {
+			display: none;
+			
+	}
+	
+}
+ 	&::after{
+            content: "";  
+            position: absolute;
+            z-index: 10;
+            background-image: url("../../assets/main/ballFour.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: 33px;
+            left:506px;
+            width: 112px;
+            height:112px;
+			@media (max-width: 320px) {
+				display: none;
+		}
+        
+    }
+}
+
+
+.ballFive{
+	position: relative;
+	&::before{
+		content: "";  
+		position: absolute;
+		z-index: 10;
+		background-image: url("../../assets/main/ballFive.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+	   top: 500px;
+		left:841px;
+		width: 50px;
+		height:50px;
+		@media (max-width: 320px) {
+			z-index: 0;
+			top:439px;
+			left:14px;
+			width: 96px;
+			height:96px;
+			transform: rotate(90deg);
+	}
+	
+}
+}	

@@ -1,0 +1,112 @@
+@import "../../scss/libs/normalize.scss";
+@import "../../scss/libs/variable.scss";
+
+.headerWrapper{
+    position: relative;
+    width: 1140px;
+    margin:0 auto;
+	height: 73px;
+    z-index: 10;
+    justify-items: center;
+    align-items:center;
+    @media (max-width: 320px) {
+        width: 320px;
+        margin:0 auto;
+        height: 55px;
+        background:  #1E1E1E;
+    }
+}
+    
+.header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+
+    &Logo{
+        margin-top: 19px;
+        margin-right: 8px;
+        display: flex;
+        flex-direction: column;
+        @media (max-width: 320px) {
+            display: none;
+        }
+        &Link{
+            display: flex;
+            gap: 8px;
+           
+        }
+        &Text{
+            margin-top: 10px;
+            span{
+               
+                line-height:1.2;
+                display: block;
+                font-size: 10px;
+                font-family: $main-font-Additional;
+                font-weight: $weight-300;
+               
+            }
+           
+        }
+    }
+    &NavBar{
+        margin-bottom:.7rem;
+        margin-right:95px;
+        display: flex;
+        gap: 30px;
+        @media (max-width: 320px) {
+            margin-left: 5px;
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+            margin: 0 auto;
+           
+    }
+        a{
+        color: $main-color;
+        text-decoration: none;
+        font-weight: $weight-500;
+        font-size: 16px;
+        @media (max-width: 320px) {
+          font-size:11px;
+          text-transform: uppercase;
+          font-weight: $weight-400;
+           margin: 0 auto;
+           letter-spacing:.5px;
+        }
+        }
+    }
+    &Tel{
+        white-space: nowrap;
+        color: $main-color;
+        font-weight: $weight-500;
+        font-size: 16px;
+        margin-bottom:.7rem;
+        @media (max-width: 320px) {
+            display: none;
+           }
+    }
+    &Social{
+        margin-bottom:.9rem;
+        display: flex;
+        gap: 33px;
+        img{
+           display: flex;
+            height: 16px;
+            width: 17px;
+             }
+    @media (max-width: 320px) {
+        display:none;
+}   
+  
+    }
+}
+.headerNav{
+    @media (max-width: 320px) {
+        display:none;
+    }
+}
+
