@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/-WELBEX/static/css/main.adb78480.css",
+    "main.js": "/-WELBEX/static/js/main.217538c9.js",
+    "static/media/logo text.svg": "/-WELBEX/static/media/logo text.b868aa258aeef44f83767fa10208a23c.svg",
+    "static/media/viber.svg": "/-WELBEX/static/media/viber.c3d7a933a8355b23bc435ff74d3849c1.svg",
+    "static/media/phone.svg": "/-WELBEX/static/media/phone.cf9c56ecdadaadbb83004223aedc739c.svg",
+    "static/media/ballFive.svg": "/-WELBEX/static/media/ballFive.e0cfd585b5aa004e7899.svg",
+    "static/media/ballOne.svg": "/-WELBEX/static/media/ballOne.5183c75bdfdc477e9148.svg",
+    "static/media/ballFour.svg": "/-WELBEX/static/media/ballFour.d0944b6e50e80d4994d4.svg",
+    "index.html": "/-WELBEX/index.html",
+    "static/media/logo.svg": "/-WELBEX/static/media/logo.a60185b2a955d7a8ed3850ac6d004388.svg",
+    "static/media/ballThree.svg": "/-WELBEX/static/media/ballThree.3d1d5081f50e92e9bbc9.svg",
+    "static/media/ballTwo.svg": "/-WELBEX/static/media/ballTwo.f56cd3688ba443c66ab7.svg",
+    "static/media/telegram.svg": "/-WELBEX/static/media/telegram.ec28ad3ae01fc187af4c6626094c876b.svg",
+    "main.adb78480.css.map": "/-WELBEX/static/css/main.adb78480.css.map",
+    "main.217538c9.js.map": "/-WELBEX/static/js/main.217538c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adb78480.css",
+    "static/js/main.217538c9.js"
+  ]
+}
