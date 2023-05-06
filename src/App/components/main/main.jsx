@@ -1,71 +1,33 @@
 import React from "react";
 import styles from "./main.module.scss";
 
+import GroupComponent from "../ui/groupComponent";
+
+import hand from "../../../App/assets/main/bd58815194b5fffd923a49857909db5c 1.png";
+import Statistics from "../ui/statistics";
+
 const Main = () => {
     return (
-        <section className={styles.mainWrapper}>
-            <div className={styles.mainContentLeft}>
-                <h2>
-                    Зарабатывайте <br />
-                    больше{" "}
-                </h2>
-                <h2>c WELBEX</h2>
-                <span>
-                    Развиваем и контролируем
-                    <br /> продажи за вас
-                </span>
-            </div>
-            <div className={styles.mainContentRight}>
-                <h2>
-                    Вместе c{" "}
-                    <span>
-                        бесплатной <br /> консультацией{" "}
-                    </span>
-                    мы дарим:
-                </h2>
-                <div className={styles.mobile}>
-                    <div className={styles.mobileText}>
-                        <h2 className={styles.mobileText}> Skype аудит</h2>
-                        {"   "}
-                        <h2>30 виджетов</h2>
-                    </div>
-                    <div className={styles.mobileDash}>
-                        <h2 className={styles.mobileDash}> Dashboard</h2>
-                        {"   "}
-                        <h2>Месяц аmoCRM</h2>
+        <section className={styles.wrapper}>
+            <GroupComponent />
+            <div className={styles.content}>
+                <div className={styles.contentText}>
+                    <h1>SMMPlaneta</h1>
+                    <span>решения и возможности</span>
+                    <ul>
+                        <li>Поиск автора</li>
+                        <li>Открытие сообщества</li>
+                        <li>Захват контента</li>
+                        <li>Адаптация и подбор персонала</li>
+                        <li>Управляй этим</li>
+                    </ul>
+                    <div className={styles.contentStatistics}>
+                        <Statistics />
                     </div>
                 </div>
-                <div className={styles.consultation}>
-                    <div className={styles.consultationWidget}>
-                        <h2>Виджеты</h2>
-                        <h3>
-                            30 готовых <br />
-                            решений
-                        </h3>
-                    </div>
-
-                    <div className={styles.consultationDashboard}>
-                        <h2>Dashboard</h2>
-                        <h3>
-                            c показателями <br />
-                            вашего бизнеса
-                        </h3>
-                    </div>
-                    <div className={styles.consultationSkype}>
-                        <h2>Skype Аудит</h2>
-                        <h3>
-                            отдела продаж
-                            <br /> и CRM системы
-                        </h3>
-                    </div>
-                    <div className={styles.consultationDays}>
-                        <h2>35 дней</h2>
-                        <h3>
-                            использования <br /> CRM
-                        </h3>
-                    </div>
+                <div className={styles.contentImg}>
+                    <img src={hand} alt="hand" />
                 </div>
-                <button>Получить консультацию </button>
             </div>
         </section>
     );
